@@ -159,8 +159,21 @@ Factorial is the multiplication of all positive integer numbers less than itself
       
 https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/
                
+ ##### Exponential
  
-  
-  
-
+ An exponential algorithm often also iterates through all subsets of the input elements. It is denoted O(2_n_) and is often seen in brute-force algorithms. It is similar to factorial time except in its rate of growth, which as you may not be surprised to hear, is exponential. The larger the data set, the more steep the curve becomes.
+ 
+ ##### Factorial
+ 
+ An algorithm with time complexity O(n!) often iterates through all permutations of the input elements. One common example is a brute-force search seen in the travelling salesman problem. It tries to find the least costly path between a number of points by enumerating all possible permutations and finding the ones with the lowest cost.
+ 
+ Polynimial Complexity:
+ - Constant
+ - Linear
+ - Logarithmic
+ -  Linearthmic
+ 
+Non Polynomial Complexity:
+ - Exponential
+ - Factorial
 
