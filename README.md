@@ -361,6 +361,44 @@ Enqueue		O(1)/O(n)	O(1)
 Dequeue		O(1)		O(1)
 Peek		O(1)		O(1)
 
+
+### <a id="hash"></a> Hash Table or Hash Map
+#### Definition
+- Stores data with key value pairs.
+- **Hash functions** accept a key and return an output unique only to that specific key.
+  - This is known as **hashing**, which is the concept that an input and an output have a one-to-one correspondence to map information.
+  - Hash functions return a unique address in memory for that data.
+
+#### What you need to know
+- Designed to optimize searching, insertion, and deletion.
+- **Hash collisions** are when a hash function returns the same output for two distinct inputs.
+  - All hash functions have this problem.
+  - This is often accommodated for by having the hash tables be very large.
+- Hashes are important for associative arrays and database indexing.
+
+**Hash Maps: Standard library**
+
+	import java.util.HashSet;
+	import java.util.HashMap;
+
+	// ...
+
+	HashSet<String> set = new HashSet<String>();
+	set.add("dog");
+	set.add("cat");
+	set.add("fish");
+	System.out.println(set.contains("dog")); // true
+	System.out.println(set.contains("horse")); // false
+
+	HashMap<String, String> map = new HashMap<String, String>();
+	map.put("Jenny", "867-5309");
+	System.out.println(map.get("Jenny")); // 867-5309
+
+#### Time Complexity
+- Indexing:         Hash Tables: `O(1)`
+- Search:           Hash Tables: `O(1)`
+- Insertion:        Hash Tables: `O(1)`
+
 ### <a id = "binary-tree"></a> Binary Tree
 
 ![#](http://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
