@@ -192,13 +192,16 @@ https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algo
 - **Dynamic arrays** are like 1D arrays, but have reserved space for additional elements.
   	- If a dynamic array is full, it copies its contents to a larger array.
 - **Multi dimensional arrays** nested arrays that allow for multiple dimensions such as an **array of arrays** providing a 2D 	spacial representation via x, y coordinates.
-**Linear arrays**
+
+
+###### **Linear arrays**
 
 ![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array.png)
 
 ![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array-init.png)
 
-**Two-dimensional arrays.**
+
+###### **Two-dimensional arrays.**
 
 ![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array2d.png)
 
