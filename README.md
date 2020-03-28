@@ -180,6 +180,37 @@ Non Polynomial Complexity:
 https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/
 
 
-#<a id="additional-resources"></a>Additional Resources
+# <a id="data-structures"></a>Data Structures
+### <a id="array"></a> Array
+#### Definition
+- Stores data elements based on an sequential, most commonly 0 based, index.
+
+#### What you need to know
+- Optimal for indexing; bad at searching, inserting, and deleting (except at the end).
+- **Linear arrays**, or 1D arrays, are the most basic.
+  	- Are static in size, meaning that they are declared with a fixed size.
+- **Dynamic arrays** are like 1D arrays, but have reserved space for additional elements.
+  	- If a dynamic array is full, it copies its contents to a larger array.
+- **Multi dimensional arrays** nested arrays that allow for multiple dimensions such as an **array of arrays** providing a 2D 	spacial representation via x, y coordinates.
+**Linear arrays**
+
+![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array.png)
+
+![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array-init.png)
+
+**Two-dimensional arrays.**
+
+![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array2d.png)
+
+![#](https://introcs.cs.princeton.edu/java/11cheatsheet/images/array2d-init.png)
+
+#### Time Complexity
+- Indexing:         Linear array: `O(1)`,      Dynamic array: `O(1)`
+- Search:           Linear array: `O(n)`,      Dynamic array: `O(n)`
+- Optimized Search: Linear array: `O(log n)`,  Dynamic array: `O(log n)`
+- Insertion:        Linear array: n/a,         Dynamic array: `O(n)`
+
+# <a id="additional-resources"></a>Additional Resources
 
 https://github.com/lichenma/LeetCode-CheatSheet/blob/master/README.md
+https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/
