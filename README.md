@@ -418,16 +418,16 @@ Peek		O(1)		O(1)
 	}
 Fast Vocabulary
 
-Root – The top node in a tree.
-Parent – The converse notion of child.
-Siblings – Nodes with the same parent.
-Descendant – a node reachable by repeated proceeding from parent to child.
-Ancestor – a node reachable by repeated proceeding from child to parent.
-Leaf – a node with no children.
-Edge – connection between one node to another.
-Path – a sequence of nodes and edges connecting a node with a descendant.
-Level – The level of a node is defined by 1 + the number of connections between the node and the root.
-Height – The height of a node is the number of edges on the longest downward path between the root and a leaf.
+- Root – The top node in a tree.
+- Parent – The converse notion of child.
+- Siblings – Nodes with the same parent.
+- Descendant – a node reachable by repeated proceeding from parent to child.
+- Ancestor – a node reachable by repeated proceeding from child to parent.
+- Leaf – a node with no children.
+- Edge – connection between one node to another.
+- Path – a sequence of nodes and edges connecting a node with a descendant.
+- Level – The level of a node is defined by 1 + the number of connections between the node and the root.
+- Height – The height of a node is the number of edges on the longest downward path between the root and a leaf.
 
 #### Trees: Binary Search Tree
 Binary Search Tree: every value in the left subtree of a node with a value is less than that value; every value in the right subtree of a node with a value is greater than that value.
