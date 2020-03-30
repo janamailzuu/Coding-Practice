@@ -242,25 +242,25 @@ https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algo
   - Queues are a **first in, first out** (FIFO) data structure.
   - Made with a doubly linked list that only removes from head and adds to tail.
 
-	// Attributes
- 	 public class Node {
-	      public int value;
-	      public Node next;
-      	      public Node(int value, Node next) {
-		  this.value = value;
-		  this.next = next;
-	      }
-	  }
-	  // Methods
-	  public interface MyList {
-	      public int get(int index);
+		// Attributes
+		 public class Node {
+		      public int value;
+		      public Node next;
+		      public Node(int value, Node next) {
+			  this.value = value;
+			  this.next = next;
+		      }
+		  }
+		  // Methods
+		  public interface MyList {
+		      public int get(int index);
 	      
-	      public void update(int index, int value);
-	      
-	      public void append(int value);
-	      
-	      public String toString();
-	  }
+		      public void update(int index, int value);
+
+		      public void append(int value);
+
+		      public String toString();
+		  }
 ![#](https://www.studytonight.com/data-structures/images/doubly-linked-list-1.png)
 	  
 #### Time Complexity
