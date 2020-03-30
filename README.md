@@ -269,11 +269,11 @@ https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algo
 - Optimized Search: Linked Lists: `O(n)`
 - Insertion:        Linked Lists: `O(1)`
 
-		Array		List
-Access		O(1)		O(n)
-Update		O(1)		O(n)
-Append		O(1)/O(n)	O(1)
-Traversal	O(n)		O(n)
+			Array		List
+Access			O(1)		O(n)
+Update			O(1)		O(n)
+Append			O(1)/O(n)	O(1)
+Traversal		O(n)		O(n)
 
 ### <a id="stack"></a> Stack
  - Stack is an ordered list of similar data type.
